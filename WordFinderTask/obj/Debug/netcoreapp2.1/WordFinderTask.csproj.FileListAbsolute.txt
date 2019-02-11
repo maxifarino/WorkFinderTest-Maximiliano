@@ -1,0 +1,9 @@
+C:\Users\Maxi\Documents\PC - Maxi\TEST - JUAN\WordFinderTask\GitHub\WorkFinderTest-Maximiliano\WordFinderTask\bin\Debug\netcoreapp2.1\WordFinderTask.deps.json
+C:\Users\Maxi\Documents\PC - Maxi\TEST - JUAN\WordFinderTask\GitHub\WorkFinderTest-Maximiliano\WordFinderTask\bin\Debug\netcoreapp2.1\WordFinderTask.runtimeconfig.json
+C:\Users\Maxi\Documents\PC - Maxi\TEST - JUAN\WordFinderTask\GitHub\WorkFinderTest-Maximiliano\WordFinderTask\bin\Debug\netcoreapp2.1\WordFinderTask.runtimeconfig.dev.json
+C:\Users\Maxi\Documents\PC - Maxi\TEST - JUAN\WordFinderTask\GitHub\WorkFinderTest-Maximiliano\WordFinderTask\bin\Debug\netcoreapp2.1\WordFinderTask.dll
+C:\Users\Maxi\Documents\PC - Maxi\TEST - JUAN\WordFinderTask\GitHub\WorkFinderTest-Maximiliano\WordFinderTask\bin\Debug\netcoreapp2.1\WordFinderTask.pdb
+C:\Users\Maxi\Documents\PC - Maxi\TEST - JUAN\WordFinderTask\GitHub\WorkFinderTest-Maximiliano\WordFinderTask\obj\Debug\netcoreapp2.1\WordFinderTask.csprojResolveAssemblyReference.cache
+C:\Users\Maxi\Documents\PC - Maxi\TEST - JUAN\WordFinderTask\GitHub\WorkFinderTest-Maximiliano\WordFinderTask\obj\Debug\netcoreapp2.1\WordFinderTask.AssemblyInfo.cs
+C:\Users\Maxi\Documents\PC - Maxi\TEST - JUAN\WordFinderTask\GitHub\WorkFinderTest-Maximiliano\WordFinderTask\obj\Debug\netcoreapp2.1\WordFinderTask.dll
+C:\Users\Maxi\Documents\PC - Maxi\TEST - JUAN\WordFinderTask\GitHub\WorkFinderTest-Maximiliano\WordFinderTask\obj\Debug\netcoreapp2.1\WordFinderTask.pdb
