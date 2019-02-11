@@ -8,9 +8,9 @@ namespace WordFinderTask
     public class WordFinder : IWordFinder
     {
         private readonly int _matrixLenth;
-        private readonly IEnumerable<string> _matrix;        
+        private readonly IEnumerable<string> _matrix;
         private DictionaryWord _hashtableWord = new DictionaryWord();
-        
+
         /// <summary>
         /// constructor
         /// </summary>
@@ -35,20 +35,19 @@ namespace WordFinderTask
                 regex = new Regex(word);
 
                 //First we look for Horizontally
-                if (ExistWordHorizontally(ref regex))
+                if (ExistWordHorizontally(regex))
                 {
                     yield return word;
+                    regex = null;
                     continue;
                 }
 
                 //if not exist word Horizontally, look for vertically
-                if (ExistWordVertically(ref regex))
+                if (ExistWordVertically(regex))
                 {
                     yield return word;
-                    continue;
+                    regex = null;                    
                 }
-
-                regex = null;
             }
         }
 
@@ -57,7 +56,7 @@ namespace WordFinderTask
         /// </summary>
         /// <param name="regex"></param>
         /// <returns></returns>
-        private bool ExistWordVertically(ref Regex regex)
+        private bool ExistWordVertically(Regex regex)
         {
             for (int i = 0; i < this._matrixLenth; i++)
             {
@@ -77,7 +76,7 @@ namespace WordFinderTask
         /// </summary>
         /// <param name="regex"></param>
         /// <returns></returns>
-        private bool ExistWordHorizontally(ref Regex regex)
+        private bool ExistWordHorizontally(Regex regex)
         {
             foreach (string wordmatrix in _matrix)
             {
@@ -86,7 +85,6 @@ namespace WordFinderTask
 
                 return true;
             }
-
             return false;
         }
 
@@ -105,11 +103,12 @@ namespace WordFinderTask
         /// <param name="index"></param>
         /// <returns></returns>
         private string GetWordByPosition(int index)
-        {            
+        {
             var wordFound = string.Empty;
 
             //First verify if it exists in the dictionary 
-            if (this._hashtableWord.GetWordByKey(index, out wordFound)) {
+            if (this._hashtableWord.GetWordByKey(index, out wordFound))
+            {
                 return wordFound;
             }
 

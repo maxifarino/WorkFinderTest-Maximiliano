@@ -691,10 +691,10 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Maxi\\Documents\\PC - Maxi\\TEST - JUAN\\WordFinderTask\\GitHub\\WorkFinderTest-Maximiliano\\WordFinderTask\\WordFinderTask.csproj",
+      "projectUniqueName": "C:\\Users\\Maxi\\Documents\\PC - Maxi\\itxCorp\\LYNX\\Proyects\\casa\\WorkFinderTest-Maximiliano\\WordFinderTask\\WordFinderTask.csproj",
       "projectName": "WordFinderTask",
-      "projectPath": "C:\\Users\\Maxi\\Documents\\PC - Maxi\\TEST - JUAN\\WordFinderTask\\GitHub\\WorkFinderTest-Maximiliano\\WordFinderTask\\WordFinderTask.csproj",
-      "outputPath": "C:\\Users\\Maxi\\Documents\\PC - Maxi\\TEST - JUAN\\WordFinderTask\\GitHub\\WorkFinderTest-Maximiliano\\WordFinderTask\\obj\\",
+      "projectPath": "C:\\Users\\Maxi\\Documents\\PC - Maxi\\itxCorp\\LYNX\\Proyects\\casa\\WorkFinderTest-Maximiliano\\WordFinderTask\\WordFinderTask.csproj",
+      "outputPath": "C:\\Users\\Maxi\\Documents\\PC - Maxi\\itxCorp\\LYNX\\Proyects\\casa\\WorkFinderTest-Maximiliano\\WordFinderTask\\obj\\",
       "projectStyle": "PackageReference",
       "originalTargetFrameworks": [
         "netcoreapp2.1"
